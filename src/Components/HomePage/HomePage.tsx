@@ -1,9 +1,12 @@
 import React from 'react';
-import Patients from '../../../src/Components/HospitalFoodManager/Patients.tsx'
+import Patients from '../HospitalFoodManager/Patients';
+import Sidebar from '../Dashboard/Sidebar';
+
 const HomePage = () => {
     return (
         <div>
             <Patients/>
+            <Sidebar/>
         </div>
     );
 };
